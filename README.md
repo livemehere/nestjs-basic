@@ -19,6 +19,8 @@
   - @Param()
   - @Query()
   - @Body()
+  - @Req()
+  - @Res()
 
 
 - pipe (middleware in express)
