@@ -83,3 +83,20 @@ export class CreateMovieDto {
 ```ts
 export class UpdateMovieDto extends PartialType(CreateMovieDto) {} // update 시 사용
 ```
+
+## Test
+
+- Unit Test : 함수별로 테스팅, coverage 확인
+- e2e Test
+
+### keywords
+
+- describe()
+- it()
+
+### Hooks
+
+- `beforeEach()`
+- `afterEach()`
+- `afterAll()`
+- `beforeAll()`
